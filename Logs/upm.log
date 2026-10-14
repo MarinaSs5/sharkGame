@@ -1,0 +1,35 @@
+[2026-10-14T15:56:33.083Z][INFO] Command-line: D:\\Unity\\Editor\\6000.6.5f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 50328 --ipc-path Unity-Upm-50328 -l 2 --log-file D:\\Unity\\Projects\\Learning1/Logs/upm.log
+[2026-10-14T15:56:33.142Z][INFO] IPC server started (IPC path=Unity-Upm-50328).
+[2026-10-14T15:56:33.142Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-50328.
+[2026-10-14T15:56:35.785Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:35.940Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-14T15:56:35.941Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:35.976Z][INFO] config:project:get-registries --> 200 (36 ms)
+[2026-10-14T15:56:36.027Z][INFO] project:list-packages --> 200 (242 ms)
+[2026-10-14T15:56:36.108Z][INFO] project:list-packages --> 200 (167 ms)
+[2026-10-14T15:56:40.015Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:40.058Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:40.169Z][INFO] project:list-packages --> 200 (154 ms)
+[2026-10-14T15:56:40.234Z][INFO] project:list-packages --> 200 (176 ms)
+[2026-10-14T15:56:40.510Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:40.631Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-14T15:56:40.642Z][INFO] config:project:get-registries --> 200 (11 ms)
+[2026-10-14T15:56:40.667Z][INFO] project:list-packages --> 200 (157 ms)
+[2026-10-14T15:56:42.959Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:43.103Z][INFO] project:list-packages --> 200 (144 ms)
+[2026-10-14T15:56:46.450Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-14T15:56:52.458Z][INFO] project:list-packages --> 200 (6008 ms)
+[2026-10-14T15:58:59.928Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2026-10-14T15:59:01.014Z][INFO] packages:get-packageinfo --> 200 (1086 ms)

@@ -1,0 +1,1259 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 28848)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 25268)
+VBCSCompiler prewarm took 194.50 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.5f1 (3ff58d469c8a) revision 4191629'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Маринка-мандаринка" at "2026-10-14T15:41:23.2944038Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'ru' Physical Memory: 15772 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-14T15:41:23Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26408, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              3399a2553cac45b79ec507295312cc5f
+  Correlation Id:          88da9954bc9cb28c7ae4d23edb157fb3
+  External correlation Id: 2918190390213505220
+  Machine Id:              9EJ3LTNFOEsTYq82qTfLiJdTmV4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Маринка-мандаринка" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Маринка-мандаринка-notifications" at "2026-10-14T15:41:23.3487394Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token V1uK10xBqS...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171519073791-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\6000.6.5f1\Editor\Unity.exe
+-projectpath
+D:\Unity\Projects\Learning1
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-Маринка-мандаринка
+-hubSessionId
+37b7edd1-687c-4fa5-b847-b82559211909
+-accessToken
+V1uK10xBqSbKNiUc8DUG6LmaJDcDDXJUchCWRYlB4Xk009f
+Successfully changed project path to: D:\Unity\Projects\Learning1
+D:/Unity/Projects/Learning1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [26316]  Target information:
+
+Player connection [26316]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 1650261189 [EditorId] 1650261189 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5FV9V80) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26316]  * "[IP] 10.5.32.62 [Port] 55504 [Flags] 2 [Guid] 1650261189 [EditorId] 1650261189 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5FV9V80) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26316] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-28944" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: fc8c98d076bd4c5a49d0fd75b1511235
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - D:/Unity/Editor/6000.6.5f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/Unity/Projects/Learning1Active build profile path: `Assets/Settings/Build Profiles/Web.asset`
+Unity Data Store running and initialised
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `m_BuildTarget`, value `20`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Refreshing native plugins compatible for Editor in 5.91 ms, found 0 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.5f1 (3ff58d469c8a)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/6000.6.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/Learning1/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7886 MB
+    Driver:   31.0.21921.1000
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/6000.6.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/6000.6.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029533 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.316 seconds
+Domain Reload Profiling: 3505ms
+	BeginReloadAssembly (247ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (761ms)
+		LoadAssemblies (223ms)
+		TypeCache.Refresh (618ms)
+			TypeCache.ScanAssembly (564ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (2318ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (1542ms)
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `Color Space`, value `1`
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.15 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.ai.navigation@a9c5744fc1de)
+    com.unity.collab-proxy@2.13.6 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.render-pipelines.universal@17.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.render-pipelines.universal@2309ae255609)
+    com.unity.test-framework@1.8.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.timeline@4891807c6bd8)
+    com.unity.ugui@2.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.ugui@42f0bd825000)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.render-pipelines.core@285af6b8c83f)
+    com.unity.shadergraph@17.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.shadergraph@58bcb150677d)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.unity.test-framework.performance@54c5bd86aedb)
+  Git packages:
+    com.kaynir.yandex-games@https://github.com/Kaynir/unity-yandex-games.git (location: D:\Unity\Projects\Learning1\Library\PackageCache\com.kaynir.yandex-games@558d0873213d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\Unity\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/Unity/Projects/Learning1
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "D:\Unity\Editor\6000.6.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "D:\Unity\Editor\6000.6.5f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "D:\Unity\Editor\6000.6.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "D:\Unity\Editor\6000.6.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+Starting: D:\Unity\Editor\6000.6.5f1\Editor\Data\DotNetSdk\dotnet.exe "D:\Unity\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/2000b0aE.dag.json" "Library/Bee/2000b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/Unity/Projects/Learning1
+ExitCode: 4 Duration: 0s771ms
+[356/982    0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2000b0aE-inputdata.json
+[765/982    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.55 seconds), 2 items updated, 764 evaluated
+ExitCode: 0 Duration: 2s829ms
+Starting: D:\Unity\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\2000b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/Unity/Projects/Learning1
+ExitCode: 0 Duration: 3s497ms
+Finished compiling graph: 995 nodes, 19238 flattened edges (16372 ToBuild, 152 ToUse), maximum node priority 1043
+[489/992    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.rsp2
+[499/992    0s] WriteResponseFile Library/Bee/artifacts/rsp/14690715318084035812.rsp
+[539/992    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.dll.mvfrm.rsp
+[541/992    0s] WriteResponseFile Library/Bee/artifacts/rsp/3037372816226278216.rsp
+[542/992    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.UnityAdditionalFile.txt
+[543/992    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.rsp
+[546/992    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp
+[547/992    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp
+[551/992    0s] WriteResponseFile Library/Bee/artifacts/rsp/10017656952941242526.rsp
+[768/992    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[979/992    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.dll (+2 others) [CacheMiss badbcdd16ace5aed662a3f0f48538fb400000000000000000000000000000006]
+[980/992    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.dll (+2 others) [CacheWrite badbcdd16ace5aed662a3f0f48538fb400000000000000000000000000000006]
+[981/992    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Kaynir.YandexGames.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Kaynir.YandexGames.dll, with 130 defines and 301 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[982/992    0s] CopyFiles Library/ScriptAssemblies/Kaynir.YandexGames.pdb
+[983/992    0s] CopyFiles Library/ScriptAssemblies/Kaynir.YandexGames.dll
+[984/992    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\PluginYourGames\Example\Scripts\Scenes\AllDemoScenes.cs(89,93): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\PluginYourGames\Example\Scripts\Scenes\AllDemoScenes.cs(89,57): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\PluginYourGames\Example\Scripts\Scenes\DemoScenePartial.cs(39,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\PluginYourGames\Example\Scripts\Scenes\DemoScenePartial.cs(39,41): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+[985/992    1s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll, with 130 defines and 349 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[986/992    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[987/992    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[988/992    1s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\PluginYourGames\Scripts\Server\Editor\Utils\ModulesInstaller.cs(134,17): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'
+[989/992    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll, with 128 defines and 377 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[990/992    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[991/992    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (3.45 seconds), 23 items updated, 992 evaluated
+Assets\PluginYourGames\Example\Scripts\Scenes\AllDemoScenes.cs(89,93): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\PluginYourGames\Example\Scripts\Scenes\AllDemoScenes.cs(89,57): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\PluginYourGames\Example\Scripts\Scenes\DemoScenePartial.cs(39,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\PluginYourGames\Example\Scripts\Scenes\DemoScenePartial.cs(39,41): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\PluginYourGames\Scripts\Server\Editor\Utils\ModulesInstaller.cs(134,17): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'
+AssetDatabase: script compilation time: 9.386970s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Importing 'GUID: 8ef79d780e8788444bd5aed52440b8c9 - Path: Packages/com.kaynir.yandex-games/Runtime' with importer (DefaultImporter)
+Imported 'GUID: 8ef79d780e8788444bd5aed52440b8c9' -> (Import Result ID: '2603d0a76b362dcc820dc8a9d6c1f53d') in 0.025 seconds [static dependencies only]. Details - ImportResultOutputID=5b10678d0ff7245666be58690a9d2af7 DependenciesID=2b4bb11f03e8afd009d90eed8143a85e StaticDependenciesID=21ec811621747632317829ddf0f4d6e0 
+Importing 'GUID: 3587f58c8c36e104dbda6f819cc2e96b - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts' with importer (DefaultImporter)
+Imported 'GUID: 3587f58c8c36e104dbda6f819cc2e96b' -> (Import Result ID: 'a2bd4d78f74e9a9a172ce41324bf1a8e') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=37e7158c06a4cb5c0fca764561679142 DependenciesID=38e6b0da839ee9525dfec1ec4e2cf407 StaticDependenciesID=4fe326b3b5561c8578ab2d1cc20ac077 
+Importing 'GUID: 7698a76fac8ba354b98e8ecb97e5b89d - Path: Packages/com.kaynir.yandex-games/Runtime/Prefabs' with importer (DefaultImporter)
+Imported 'GUID: 7698a76fac8ba354b98e8ecb97e5b89d' -> (Import Result ID: 'fe579e2d4e26022131ade7b182ca72c2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=65ce24b781c30e6a53b5e312ebe74f00 DependenciesID=b08b689216514d80e787236e0cdd1138 StaticDependenciesID=99475f390273b6c0d122948b627ada5b 
+Importing 'GUID: 37989634da509d04fb60ab2b4e780c16 - Path: Packages/com.kaynir.yandex-games/Runtime/Plugins' with importer (DefaultImporter)
+Imported 'GUID: 37989634da509d04fb60ab2b4e780c16' -> (Import Result ID: '8638f4ac4d33a365ab2a7a62f93dd8b7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ac9593139dbb52cab911f0b9397bea2f DependenciesID=1a30077a31d09ed52d3c6bc10570bb5f StaticDependenciesID=b507bd7d66e10d8112c02a9a82ff45e6 
+Importing 'GUID: 9015c69ada86f154b9359f79abc1517d - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services' with importer (DefaultImporter)
+Imported 'GUID: 9015c69ada86f154b9359f79abc1517d' -> (Import Result ID: '4feb6b0a6a5b1dcf1f5ba591ed2efce3') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e867be32a9c28d7d7646bcd78f14a4c3 DependenciesID=a863fabfc3074ce94dd6f50ef0b39f26 StaticDependenciesID=f641ee7c2da052115098aed528cf4867 
+Importing 'GUID: e1f49565b52637040aa4cbeaf8af8f52 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools' with importer (DefaultImporter)
+Imported 'GUID: e1f49565b52637040aa4cbeaf8af8f52' -> (Import Result ID: '48fc3140f2cf80c6ccfa8174e3142294') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=f11ff07f026ebc5300990adfbc30d2dc DependenciesID=b6a98b6c9f2f2bf3043fc0ce072472a1 StaticDependenciesID=55764ff3957dae3f49de5efb423480b9 
+Importing 'GUID: 04f425b59cbc6af4bbf9677200041e45 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Modules' with importer (DefaultImporter)
+Imported 'GUID: 04f425b59cbc6af4bbf9677200041e45' -> (Import Result ID: 'fd81ef62211a03c0af073268212b672e') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=ae323c5ff9c3b4f235592558092920fc DependenciesID=15b828006338ab7dfd6e47829dd1266e StaticDependenciesID=e396ec7a5ce16f93715c81b0f52d0aa7 
+Importing 'GUID: cc3f750c708ff8b4e9f708c8a193f94f - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Data' with importer (DefaultImporter)
+Imported 'GUID: cc3f750c708ff8b4e9f708c8a193f94f' -> (Import Result ID: '53e03dec2fba5fbab584282959012ed3') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=73fae5112d65c80304b9d9191c72caa4 DependenciesID=0c8811aa8ba918aedbb1c35675bddbaf StaticDependenciesID=7942913c57017f66b7f797a39ede0c99 
+Importing 'GUID: 91009da2fd7d4c84cbea4a887526fb20 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements' with importer (DefaultImporter)
+Imported 'GUID: 91009da2fd7d4c84cbea4a887526fb20' -> (Import Result ID: '083912a34f64b248a52e5eb89580fcb8') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=2e37ed9985d59f8447fc77d9845f8fd3 DependenciesID=12449329a3191e830b1f26356c9893d9 StaticDependenciesID=1999689235889724e61c71be979b5c38 
+Importing 'GUID: 022ac99a1b3a0e1469577ad74517e7c3 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization' with importer (DefaultImporter)
+Imported 'GUID: 022ac99a1b3a0e1469577ad74517e7c3' -> (Import Result ID: '6eefe3c243bd52b96e0df82dfb8571f3') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d5972eb26110a01e1bc3bed68781d5fe DependenciesID=8b408de888e6fcb898d8faf3b88afd40 StaticDependenciesID=7e0f6724bfb3ae16ba374a7475002e12 
+Importing 'GUID: b42975e8d8ccea148a1d508696078993 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards' with importer (DefaultImporter)
+Imported 'GUID: b42975e8d8ccea148a1d508696078993' -> (Import Result ID: '3bf09e7041faa6e70932aff383111e5f') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=c9c7987b56937eddefee36e04d64a189 DependenciesID=eba91bd2a0db4af14145268acedfb4f1 StaticDependenciesID=3c12c3fa5af3c487620555e490d920ef 
+Importing 'GUID: 697a6159fbf44ba48ac212711c28edad - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds' with importer (DefaultImporter)
+Imported 'GUID: 697a6159fbf44ba48ac212711c28edad' -> (Import Result ID: '8112bd5957882bf2b1ce0fbdcb2775d9') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7885fcbcc4f630041657c22d39c3229d DependenciesID=12ac14b487bad86fe9961bedb6ce3208 StaticDependenciesID=0d939d8a511a6cf1e45669406209e7d1 
+Importing 'GUID: ab204d53ec586a34e9281b75727ad49a - Path: Packages/com.kaynir.yandex-games/Runtime/Kaynir.YandexGames.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: ab204d53ec586a34e9281b75727ad49a' -> (Import Result ID: '40f7993dcbc5917fb18f96556535e7c7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8aa46e6a9460c76bfa59118b74d0b5f2 DependenciesID=5f871ce23879eab125fe911de4360816 StaticDependenciesID=1c82afd86a548d56188f82212c4b48ca 
+Refreshing native plugins compatible for Editor in 4.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Starting new worker id: 0 with log in D:/Unity/Projects/Learning1/Logs/AssetImportWorkerHW0.log
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.374 seconds
+Domain Reload Profiling: 2814ms
+	BeginReloadAssembly (427ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (176ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (919ms)
+		LoadAssemblies (575ms)
+		TypeCache.Refresh (210ms)
+			TypeCache.ScanAssembly (197ms)
+		AnalyzeDomain (90ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1375ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (54ms)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Importing 'GUID: 42275753fc568934285ce90d5f67deca - Path: Packages/com.kaynir.yandex-games/README.md' with importer (TextScriptImporter)
+Imported 'GUID: 42275753fc568934285ce90d5f67deca' -> (Import Result ID: 'f6f6d00c86ea7bba386d9438102aaf57') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=c08a75690403d4d9bc9bc128b637997c DependenciesID=7b73a7fad804d9e1b4c50ce9c497aadc StaticDependenciesID=385cfa78e01754937f9ade43a4f4d309 
+Importing 'GUID: d2fdb1868899d5f43a3d928616e3564f - Path: Packages/com.kaynir.yandex-games/Runtime/Prefabs/TestYandexSDK.prefab' with importer (PrefabImporter)
+Imported 'GUID: d2fdb1868899d5f43a3d928616e3564f' -> (Import Result ID: '3f8ebea5af7ac21216a03dc94a9a3607') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b52c0714d561c64abd049d0de38b88f DependenciesID=22066abdd39fd98cc33f2b825fe01bec StaticDependenciesID=f0bd4b011dc8ed53e11464d60393ae11 
+Importing 'GUID: bc134875e6f032a4c8c1b052e8bd4f52 - Path: Packages/com.kaynir.yandex-games/Runtime/Prefabs/YandexSDK.prefab' with importer (PrefabImporter)
+Imported 'GUID: bc134875e6f032a4c8c1b052e8bd4f52' -> (Import Result ID: '739bc67f3f074e17304b99741ddf15ff') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=540f57140524f20a82b75a7d1beb8eeb DependenciesID=786d7cddef285c326adb6f0335df8c01 StaticDependenciesID=65dfba81e76d17e71630057bf051fa11 
+The following asset(s) located in immutable packages were unexpectedly altered. Making changes to immutable packages isn't recommended because the changes can be lost without any warning during Package Manager operations.
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Modules
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds/ICloudService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Data/SystemData.cs
+  Packages/com.kaynir.yandex-games/Runtime/Plugins
+  Packages/com.kaynir.yandex-games/Runtime
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization/YandexAuthService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards/ILeaderboardService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements/TestAdvService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Kaynir.YandexGames.asmdef
+  Packages/com.kaynir.yandex-games/README.md
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards/YandexLeaderboardService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Modules/AudioMuteModule.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization/IAuthService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Prefabs/YandexSDK.prefab
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards/TestLeaderboardService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization/TestAuthService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools/YandexPlugin.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds/YandexCloudService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Data
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements/YandexAdvService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Prefabs/TestYandexSDK.prefab
+  Packages/com.kaynir.yandex-games/Runtime/Prefabs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards
+  Packages/com.kaynir.yandex-games/Runtime/Scripts
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements/IAdvService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds/TestCloudService.cs
+  Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools/YandexTools.cs
+  Packages/com.kaynir.yandex-games/Runtime/Plugins/YandexPlugin.jslib
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=82371bda89775c142bcc930c3c9731c4): Total: 14.987 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=17 (actual=17, local cache=0, cache server=0)
+		Asset DB Process Time: managed=7 ms, native=2347 ms
+		Asset DB Callback time: managed=642 ms, native=1018 ms
+		Scripting: domain reloads=1, domain reload time=1495 ms, compile time=9390 ms, other=85 ms
+		Project Asset Count: scripts=1478, non-scripts=2467
+		Asset File Changes: new=33, changed=33, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 33.144ms
+	ApplyChangesToAssetFolders: 1.011ms
+	Scan: 220.095ms
+	Collect global state as custom dependencies: 36.388ms
+	OnSourceAssetsModified: 2.225ms
+	CategorizeScriptCompilationAssets: 99.836ms
+	ProcessAssetsWithTransientArtifactChanges: 99.096ms
+	CategorizeAssets: 137.105ms
+	CompileScripts: 9389.945ms
+	ImportOutOfDateAssets: 1468.561ms (1387.892ms without children)
+		ImportManagerImport: 74.619ms (5.936ms without children)
+			UpdateCategorizedAssets: 0.266ms
+		ReloadNativeAssets: 0.125ms
+		UnloadImportedAssets: 2.679ms
+		ReloadImportedAssets: 0.158ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.293ms
+		ImportSchedulerStart: 0.727ms
+	PostProcessAllAssets: 1684.630ms
+		AssemblyValidation.PostprocessAllAssets 6.796ms
+		XRBuildSystem.XRAssetImported 0.882ms
+		PostProcessCallbackCreateDeferredMaterials 0.537ms
+		ShaderAssetModifiedCallback 0.283ms
+		VersionControlSettings.HiddenFilePostprocess 0.160ms
+		RaytracingShaderImportPostprocess 0.095ms
+		ComputeShaderImportPostprocess 0.092ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.070ms
+		SpeedTreeImporter.PostprocessAllAssets 0.063ms
+		MonoPostProcessAllAssets: 638.941ms
+			SyncVS.PostprocessSyncProject 329.404ms
+			AssetPostprocessor.OnPostprocessAllAssets 192.826ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 23.484ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 18.851ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.390ms
+			AssetChangedListener.OnPostprocessAllAssets 7.518ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.576ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.817ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.312ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.375ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.736ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.707ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.289ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.150ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.136ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.019ms
+			PostProcessor.OnPostprocessAllAssets 0.906ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.795ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.729ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.693ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.660ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.561ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.545ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.526ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.390ms
+			AssetEvents.OnPostprocessAllAssets 0.364ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.279ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.241ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.224ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.219ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.204ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.198ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.177ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.175ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.173ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.111ms
+	PostAssetChangesProfiler: 8.514ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.236ms
+	UnloadStreamsBegin: 2.618ms
+	PersistCurrentRevisions: 0.556ms
+	GenerateScriptTypeHashes: 2.883ms
+	GenerateScriptTypeSerializationHashes: 5.627ms
+	Untracked: 1856.831ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 3.686ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Learning1
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: [ (91) to any virtual key
+GetVirtualKey: Could not map char: ] (93) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: V (86) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: l (108) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: k (107) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: P (80) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: g (103) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: u (117) to any virtual key
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            53.489 ms
+	Integration:            152.329 ms
+	Integration of assets:  4.999 ms
+	Thread Wait Time:       0.241 ms
+	Total Operation Time:   211.058 ms
+Unloading 6782 unused Assets / (8.6 MB). Loaded Objects now: 8057.
+Memory consumption went from 434.5 MB to 425.9 MB.
+Total: 17.965000 ms (FindLiveObjects: 0.957900 ms CreateObjectMapping: 1.233600 ms MarkObjects: 12.240200 ms  DeleteObjects: 2.828900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout D:\Unity\Projects\Learning1\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Маринка-мандаринка/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Launching Unity Hub...
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: [ (91) to any virtual key
+GetVirtualKey: Could not map char: ] (93) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: V (86) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: l (108) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: k (107) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: P (80) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: g (103) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: u (117) to any virtual key
+<RI> Initializing input.
+Using Windows.Gaming.Input
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 29.653 seconds
+	Project init time: 				23.062 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.194 seconds
+		Asset Database init time: 		1.113 seconds
+		Global illumination init time: 	0.067 seconds
+		Assemblies load time: 			5.362 seconds
+		Unity extensions init time: 	0.024 seconds
+		Asset Database refresh time: 	14.988 seconds
+	Scene opening time: 			6.090 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791992512737,"processId":28944,"projectLoad":29.6532283,"projectInit":23.0624341,"templateInit":0.0,"packageManagerInit":0.1935688,"assetDatabaseInit":1.1132913,"globalIlluminationInit":0.0672249,"assembliesLoad":5.3620911,"unityExtensionsInit":0.0235903,"assetDatabaseRefresh":14.9882079,"sceneOpening":6.0895343}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791992512738,"processId":28944,"editorVersion":"6000.6.5f1 (3ff58d469c8a)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+IPCStream (hubIPCService): IPC stream failed to read (Not connected)
+[Licensing::Module] Error: The connection with the Unity Licensing Client has been lost. Attempting to reconnect.
+[Licensing::IpcConnector] Channel LicenseClient-Маринка-мандаринка doesn't exist
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Маринка-мандаринка-6000.6.5" at "2026-10-14T15:42:11.994368Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26440, path: "D:/Unity/Editor/6000.6.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2b0f3071b56a45cd9254f5c3db87d869
+  Correlation Id:          c3af6e95101e08c2f1d3317bf1b6d204
+  External correlation Id: 2918190390213505220
+  Machine Id:              9EJ3LTNFOEsTYq82qTfLiJdTmV4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Маринка-мандаринка-6000.6.5" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::Module] The re-connection attempt was successful.
+[Licensing::Client] Connection to LicenseClient-Маринка-мандаринка-6000.6.5-notifications lost
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Маринка-мандаринка-6000.6.5-notifications" at "2026-10-14T15:42:12.0600168Z"
+Asset Pipeline Refresh (id=4dd6f99cb9b394e478b762f323018fba): Total: 0.068 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b8e1713247fe8f94ba4945336169d007): Total: 0.124 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Asset Pipeline Refresh (id=d86bc1dd5821cf640b6ccfe9a9c04bc5): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Asset Pipeline Refresh (id=27d87cf3cb0e0134dbbbb22681e6c407): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Asset Pipeline Refresh (id=0ed6b1c71e45e944b9f61b9b146340de): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+Asset Pipeline Refresh (id=36112211a4594524887a1e2089999830): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
+Asset Pipeline Refresh (id=ff5c02aa9ef14fc4d8cb7a8bcb638dee): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Asset Pipeline Refresh (id=17eb03a06f8bd6042b471165046d3183): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Asset Pipeline Refresh (id=0bc14eb9bdde37e48b5671fb20f763bc): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Asset Pipeline Refresh (id=393d562a8ca2da342924a15c5199cd1c): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e606bd377506ecc4cac86a349e3dcc4e): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6e88aac719ce6f6428cd380b1fe6012e - Path: Assets/Settings/Build Profiles/Web.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6e88aac719ce6f6428cd380b1fe6012e' -> (Import Result ID: '80321ca31fe8f245a45beb1678b3f32e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9d19fcde35d3d310539a6ec15c4fd9e7 DependenciesID=91a76a10d9db6694294f2dfa6ffa4c7f StaticDependenciesID=7024034be0043ea0a2807fb770c2f741 
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b3f35bcb9a140b449a309f0d428f7daa): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b44e8f82fe9bb5f409384733240d2d0c): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Created GICache directory at C:/Users/Маринка-мандаринка/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.060s, timestamps: [48.984 - 49.044]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "V1uK10xB"... (expires: 2026-10-14T16:37:57Z)
+Starting new worker id: 1 with log in D:/Unity/Projects/Learning1/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 022ac99a1b3a0e1469577ad74517e7c3 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a950ead6884f5ba039c29f5a25655617') in 0.127051 seconds
+Starting new worker id: 2 with log in D:/Unity/Projects/Learning1/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 6cd0d7c404b99b04ba6abeb8311b2f4d - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization/TestAuthService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '522875c0cfd4a81c1c3b33a63ec4f45b') in 0.1123363 seconds
+[Worker0] Imported GUID: 04f425b59cbc6af4bbf9677200041e45 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Modules - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4233ad5fc05d32c98b7b5f02156af454') in 0.0265732 seconds
+[Worker0] Imported GUID: b87f2da70bf79c54ea4f4560bfcb3c67 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements/YandexAdvService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd06e836483fbddc754dca9350c4d6bcf') in 0.0273352 seconds
+[Worker0] Imported GUID: 42275753fc568934285ce90d5f67deca - Path: Packages/com.kaynir.yandex-games/README.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '011da924dc6d36c80c180d75925b700f') in 0.0254049 seconds
+[Worker0] Imported GUID: 25f7b8e2fef0a7e49bcaeea6c0cbe537 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds/TestCloudService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e30be9ec2bc0d3af7d94d6db3b0838f1') in 0.0308618 seconds
+[Worker0] Imported GUID: 486c0a5cd33d8304eaadca949deb75f5 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Modules/AudioMuteModule.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a79154d6e1d14bb37c33532ad0c1c178') in 0.0316177 seconds
+[Worker0] Imported GUID: 37989634da509d04fb60ab2b4e780c16 - Path: Packages/com.kaynir.yandex-games/Runtime/Plugins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1be644bd42b6f2895542ebf05b20cd29') in 0.0293153 seconds
+[Worker0] Imported GUID: bc134875e6f032a4c8c1b052e8bd4f52 - Path: Packages/com.kaynir.yandex-games/Runtime/Prefabs/YandexSDK.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '62152d9c65528ebdaaf5312f1a92c8ac') in 0.0963586 seconds
+[Worker0] Imported GUID: 7db721d322937b146b4f67c958e0a6fc - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Data/SystemData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4c118040f198ba17ae5a735c2afeeffa') in 0.0209323 seconds
+[Worker0] Imported GUID: e93f666ce5c7b7b4c84f5ec9e2df494f - Path: Assets/PluginYourGames/Editor/BuildLogYG2.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41e2977f4abde3f94814440b61e70c64') in 0.0236709 seconds
+[Worker0] Imported GUID: d2fdb1868899d5f43a3d928616e3564f - Path: Packages/com.kaynir.yandex-games/Runtime/Prefabs/TestYandexSDK.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f188350a63bb3d09da6a15bd8ebeb7f9') in 0.0290645 seconds
+[Worker0] Imported GUID: e5c70f39df24251499de21d60b763bc0 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards/YandexLeaderboardService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f9ec56f77bc38fc9515a974f4ee7ee41') in 0.0262762 seconds
+[Worker0] Imported GUID: df7276f2321fd71408f24bd3f35ce4b7 - Path: Assets/Script.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '19143113ec621ff9914088c20fbacf0e') in 0.0287688 seconds
+[Worker0] Imported GUID: 7698a76fac8ba354b98e8ecb97e5b89d - Path: Packages/com.kaynir.yandex-games/Runtime/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8477c07fd74ed87532a31c854b4eeb4b') in 0.0283 seconds
+[Worker0] Imported GUID: cc3f750c708ff8b4e9f708c8a193f94f - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Data - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8df4b6b35bc3ac96175442abfa09812') in 0.0326189 seconds
+[Worker0] Imported GUID: a5672b96dd5eb2f40b3ac36768e0406d - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements/TestAdvService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d576d7dcbd9433c70987f0fbaffb190') in 0.0339817 seconds
+[Worker0] Imported GUID: 697a6159fbf44ba48ac212711c28edad - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bfaa06300b7833d1471eeace83355c92') in 0.0300599 seconds
+[Worker0] Imported GUID: c782a1beaa283404a9367bccc2e451dc - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards/ILeaderboardService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '923cc4ac26fb1ded2537dc418ab1799c') in 0.0302046 seconds
+[Worker0] Imported GUID: 8ef79d780e8788444bd5aed52440b8c9 - Path: Packages/com.kaynir.yandex-games/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e103d9780ae17bffcea8d4e8dfd5c169') in 0.0275621 seconds
+[Worker0] Imported GUID: 91009da2fd7d4c84cbea4a887526fb20 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5494756083654f1352a933b29b4212f9') in 0.0271559 seconds
+[Worker0] Imported GUID: 056d8148239c3ac4d8c60f7e171d0ff8 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization/IAuthService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f85419dcb1d9aa28ce5b86b062619743') in 0.0299592 seconds
+[Worker0] Imported GUID: 3587f58c8c36e104dbda6f819cc2e96b - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5d784d306a86e9af95eef0582cd53ef4') in 0.0245533 seconds
+[Worker0] Imported GUID: ab204d53ec586a34e9281b75727ad49a - Path: Packages/com.kaynir.yandex-games/Runtime/Kaynir.YandexGames.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8817ce11116abd8706ac92bd3562759d') in 0.0285573 seconds
+[Worker0] Imported GUID: 3cf39fa91de5bba46af8db42dd63fce3 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools/YandexPlugin.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '182d0fca75fd61a6a9d9a3c9db342112') in 0.0287671 seconds
+[Worker0] Imported GUID: 62b5b666d9e845c4985d835ad1942e68 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds/YandexCloudService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6020eca52a1d65ec00199a34067bad82') in 0.0260393 seconds
+[Worker0] Imported GUID: b42975e8d8ccea148a1d508696078993 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c946d7f48bdf69e84922688873afc0fa') in 0.0333346 seconds
+[Worker0] Imported GUID: ebe49416d4a06b54098ecd6f41b0c00f - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Leaderboards/TestLeaderboardService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b631fb82a87087615b0be1efba01a754') in 0.0293015 seconds
+[Worker0] Imported GUID: 9015c69ada86f154b9359f79abc1517d - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'faccc6c4aa922f4836b498b48d43916c') in 0.0247473 seconds
+[Worker0] Imported GUID: 250c4f85a3388e1428636f328acd42c6 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Clouds/ICloudService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2eff2f6bc839919f1b3291493a54d99e') in 0.0253811 seconds
+[Worker0] Imported GUID: ae5a81eb66780a64e849137cb8a4ca9c - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Advertisements/IAdvService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '66502b16e37dd8151b50ae8b46fe2f51') in 0.0220745 seconds
+[Worker0] Imported GUID: 4146d8876cd3c134abbca5ea668e5ca9 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Services/Authorization/YandexAuthService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82433d5258a4c373daf0be7496cc86ce') in 0.0354815 seconds
+[Worker0] Imported GUID: 8da279f814eaee74e8bd6cc2db0605e7 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools/YandexTools.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '163515ed1e0d1b6ac8318e019828bee8') in 0.0297722 seconds
+[Worker0] Imported GUID: 88a47552d1518634ab95636f425bee6c - Path: Packages/com.kaynir.yandex-games/Runtime/Plugins/YandexPlugin.jslib - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '35248d900d157add16a447fa7ef1b57e') in 0.0485038 seconds
+[Worker0] Imported GUID: e1f49565b52637040aa4cbeaf8af8f52 - Path: Packages/com.kaynir.yandex-games/Runtime/Scripts/Tools - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a43e73e30ae066253381192a2b9b6027') in 0.0275921 seconds
+Worker ready: AssetImportWorkerHW2 2
+Worker ready: AssetImportWorkerHW1 1
+Project ID request failed, Reason: Connection timed out after 5002 milliseconds (0).
+Unknown Unity Connect error (408). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/09c527b9-92b4-415a-8d5e-2ad2f8aababc", HTTP error code 0
+.[Package Manager Window] Error while getting product update details: [Error 0] Something went wrong. Please try again later. (URL: https://packages-v2.unity.com/-/api/product-update-info?productIds=302343)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.PackageManager.UI.Internal.AssetStoreClientV2/<>c__DisplayClass27_0:<FetchUpdateInfos>b__1 (UnityEditor.PackageManager.UI.Internal.UIError)
+UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI/<>c__DisplayClass32_2:<HandleHttpRequest>b__3 (UnityEditor.IAsyncHTTPClient)
+UnityEditor.AsyncHTTPClient:Done (UnityEditor.AsyncHTTPClient/State,int)
+
+Asset Pipeline Refresh (id=e1936142c567c1c459428425c70c0f5d): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '09c527b9-92b4-415a-8d5e-2ad2f8aababc'.
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: [ (91) to any virtual key
+GetVirtualKey: Could not map char: ] (93) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: V (86) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: l (108) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: k (107) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: P (80) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: g (103) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: u (117) to any virtual key
+Asset Pipeline Refresh (id=23fa69b3cff8dad43b1a26c6b259f600): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=e7021d6a1071d944cbcec0e814c4b9fa): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: o (111) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: s (115) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: b (98) to any virtual key
+GetVirtualKey: Could not map char: z (122) to any virtual key
+GetVirtualKey: Could not map char: y (121) to any virtual key
+GetVirtualKey: Could not map char: [ (91) to any virtual key
+GetVirtualKey: Could not map char: ] (93) to any virtual key
+GetVirtualKey: Could not map char: x (120) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: v (118) to any virtual key
+GetVirtualKey: Could not map char: V (86) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: d (100) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: i (105) to any virtual key
+GetVirtualKey: Could not map char: l (108) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: k (107) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: p (112) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: r (114) to any virtual key
+GetVirtualKey: Could not map char: P (80) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: n (110) to any virtual key
+GetVirtualKey: Could not map char: g (103) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: f (102) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: a (97) to any virtual key
+GetVirtualKey: Could not map char: c (99) to any virtual key
+GetVirtualKey: Could not map char: u (117) to any virtual key
+MonoPathRemapper: Attempts to remap: 47498; Successful remaps: 19476
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout D:\Unity\Projects\Learning1\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Маринка-мандаринка/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Asset Pipeline Refresh (id=396d86b786a4d3e4ea29c3c4d4d08951): Total: 0.034 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-Маринка-мандаринка-6000.6.5-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Маринка-мандаринка-6000.6.5 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000005564, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009BE8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005564, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009BE8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3712
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791992619443,"processId":28944,"allocatedMemory":17238588,"memoryLabels":[{"Default":196832},{"Permanent":15516},{"NewDelete":74517},{"Thread":4198024},{"Manager":819741},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":854633},{"Material":132},{"GfxDevice":55968},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":17176},{"Input":45280},{"JobScheduler":256},{"TextLib":19933},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1326576},{"BaseObject":48976},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":7389},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":887865},{"StaticString":3808},{"Utility":2674426},{"PoolAlloc":2312},{"AI":80},{"TypeTree":17269},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":12913},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":234},{"EditorUtility":732180},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4666933},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36882},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":320},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3604},{"Windowing":456},{"Licensing":12885},{"AssetReference":32},{"IPCStream":32}]}
